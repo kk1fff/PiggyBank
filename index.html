@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body onload="init()">
+  <div id="install-status"></div>
+  <div id="main-panel" class="main-panel panel panel-opened" isopened="true">
+    <a href="#" class="button" id="switch-to-add-item-panel">Add an item</a>
+  </div>
+  <div id="add-item-panel" class="add-item-panel panel panel-closed" isopened="false">
+    <table>
+      <tr>
+        <td>
+          Item<br>
+          <input type="text" class="textbox" id="item-name"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Cost<br/>
+          <input type="text" class="textbox" id="item-cost"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Note<br/>
+          <textarea class="textbox" id="item-note">
+          </textarea>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* page style */
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+/* main panel */
+
+.main-panel {
+    background-color: #d0d0d0;
+}
+
+/* add item panel */
+
+.add-item-panel {
+
+}
+
+/* panel commons */
+
+.panel {
+    -moz-transition: all 0.2s ease-in-out 0s;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.panel-opened {
+}
+
+.panel-closed {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+/* button */
+
+a.button {
+    -moz-transition: all 0.2s ease-in-out 0s;
+    background-color: #3030f0;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #2020c0;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #303050;
+}
+
+/* text box */
+
+.textbox {
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+}

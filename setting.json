@@ -1,0 +1,6 @@
+{
+  "cache_allowed": false,
+  "mime": {
+    "application/x-web-app-manifest+json": ["webapp"]
+  }
+}
